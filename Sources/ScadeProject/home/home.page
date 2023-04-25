@@ -1,0 +1,42 @@
+<?xml  version="1.0" encoding="UTF-8" standalone="no"?>
+<xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmi:version="2.0" xmi:id="0.6" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:graphics="http://scade.com/sdk/view/graphics" xmlns:layout="http://scade.com/sdk/layout" xmlns:navigation="http://scade.com/lattice/navigation" xmlns:widgets="http://scade.com/sdk/view/widgets">
+  <widgets:Page name="home">
+    <minArea width="430" height="932"/>
+    <location/>
+    <backgroundColor Red="33" Green="34" Blue="44"/>
+    <children xsi:type="widgets:Label" text="Logged In: " name="loggedin_label">
+      <font fontFamily="ArialMT" size="20">
+        <color Red="211" Green="211" Blue="211"/>
+      </font>
+      <layoutData xsi:type="layout:AutoLayoutData"/>
+      <location x="55" y="373"/>
+      <size width="95" height="23"/>
+      <contentSize width="95" height="23"/>
+    </children>
+    <children xsi:type="widgets:Label" text="Email: " name="email_label">
+      <font fontFamily="ArialMT" size="20">
+        <color Red="214" Green="214" Blue="214"/>
+      </font>
+      <layoutData xsi:type="layout:AutoLayoutData"/>
+      <location x="54" y="292"/>
+      <size width="56" height="23"/>
+      <contentSize width="56" height="23"/>
+    </children>
+    <children xsi:type="widgets:Label" text="Home" name="label">
+      <font fontFamily="ArialMT" size="38">
+        <color Red="255" Green="255" Blue="255"/>
+      </font>
+      <layoutData xsi:type="layout:AutoLayoutData">
+        <constraints sourceAnchor="TOP" targetAnchor="TOP" constant="45" source="/0/@children.2" target="/0"/>
+        <constraints sourceAnchor="CENTER_X" targetAnchor="CENTER_X" source="/0/@children.2" target="/0"/>
+      </layoutData>
+      <location x="164" y="45"/>
+      <size width="102" height="43"/>
+      <contentSize width="102" height="43"/>
+    </children>
+    <layout xsi:type="layout:AutoLayout"/>
+    <maxArea width="430" height="932"/>
+    <size width="430" height="932"/>
+  </widgets:Page>
+  <navigation:Navigation page="/0"/>
+</xmi:XMI>

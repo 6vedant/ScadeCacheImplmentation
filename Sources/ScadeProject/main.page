@@ -1,0 +1,105 @@
+<?xml  version="1.0" encoding="UTF-8" standalone="no"?>
+<xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmi:version="2.0" xmi:id="0.6" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:graphics="http://scade.com/sdk/view/graphics" xmlns:layout="http://scade.com/sdk/layout" xmlns:navigation="http://scade.com/lattice/navigation" xmlns:widgets="http://scade.com/sdk/view/widgets">
+  <widgets:Page name="main">
+    <minArea width="430" height="932"/>
+    <location/>
+    <backgroundColor Red="33" Green="34" Blue="44"/>
+    <children xsi:type="widgets:Label" text="Email" name="label1">
+      <font fontFamily="ArialMT" size="18">
+        <color Red="93" Green="96" Blue="113"/>
+      </font>
+      <layoutData xsi:type="layout:AutoLayoutData">
+        <constraints constant="24" source="/0/@children.0" target="/0"/>
+      </layoutData>
+      <location x="24" y="164"/>
+      <size width="46" height="20"/>
+      <contentSize width="46" height="20"/>
+    </children>
+    <children xsi:type="widgets:Label" text="Name" name="label3">
+      <font fontFamily="ArialMT" size="18">
+        <color Red="93" Green="96" Blue="113"/>
+      </font>
+      <layoutData xsi:type="layout:AutoLayoutData"/>
+      <location x="23" y="77"/>
+      <size width="49" height="20"/>
+      <contentSize width="49" height="20"/>
+    </children>
+    <children xsi:type="widgets:Label" text="===================================================" name="label4">
+      <font fontFamily="ArialMT" size="17">
+        <color Red="70" Green="70" Blue="70"/>
+      </font>
+      <layoutData xsi:type="layout:AutoLayoutData"/>
+      <location y="394"/>
+      <size width="507" height="19"/>
+      <contentSize width="507" height="19"/>
+    </children>
+    <children xsi:type="widgets:Button" text="Fetch Values" cornerRadius="12" name="fetch_btn" paddingTop="2" paddingRight="80" paddingLeft="80">
+      <font fontFamily="ArialMT" size="18">
+        <color Red="255" Green="255" Blue="255"/>
+      </font>
+      <location x="83" y="602"/>
+      <size width="264" height="58"/>
+      <contentSize width="104" height="20"/>
+      <layoutData xsi:type="layout:AutoLayoutData">
+        <constraints sourceAnchor="HEIGHT" constant="58" source="/0/@children.3"/>
+        <constraints sourceAnchor="CENTER_X" targetAnchor="CENTER_X" source="/0/@children.3" target="/0"/>
+      </layoutData>
+      <backgroundColor Red="255" Green="51" Blue="153"/>
+    </children>
+    <children xsi:type="widgets:Button" text="Save to Cache" cornerRadius="12" name="save_btn" paddingTop="2" paddingRight="80" paddingLeft="80">
+      <font fontFamily="ArialMT" size="18">
+        <color Red="255" Green="255" Blue="255"/>
+      </font>
+      <location x="76" y="299"/>
+      <size width="279" height="58"/>
+      <contentSize width="119" height="20"/>
+      <layoutData xsi:type="layout:AutoLayoutData">
+        <constraints sourceAnchor="HEIGHT" constant="58" source="/0/@children.4"/>
+        <constraints sourceAnchor="CENTER_X" targetAnchor="CENTER_X" source="/0/@children.4" target="/0"/>
+      </layoutData>
+      <backgroundColor Red="255" Green="51" Blue="153"/>
+    </children>
+    <children xsi:type="widgets:Textbox" placeholder="Enter your Email" name="email_tb">
+      <font fontFamily="ArialMT" size="20">
+        <color Red="255" Green="255" Blue="255"/>
+      </font>
+      <location x="24" y="209"/>
+      <size width="311" height="22"/>
+      <contentSize width="311" height="22"/>
+      <layoutData xsi:type="layout:AutoLayoutData"/>
+      <backgroundColor Red="33" Green="34" Blue="44"/>
+    </children>
+    <children xsi:type="widgets:Textbox" placeholder="Enter your name" name="name_tb">
+      <font fontFamily="ArialMT" size="20">
+        <color Red="255" Green="255" Blue="255"/>
+      </font>
+      <location x="24" y="114"/>
+      <size width="311" height="22"/>
+      <contentSize width="311" height="22"/>
+      <layoutData xsi:type="layout:AutoLayoutData"/>
+      <backgroundColor Red="33" Green="34" Blue="44"/>
+    </children>
+    <children xsi:type="widgets:Label" text="Name:" name="name_fetch">
+      <font fontFamily="ArialMT" size="17">
+        <color Red="255" Green="255" Blue="255"/>
+      </font>
+      <layoutData xsi:type="layout:AutoLayoutData"/>
+      <location x="35" y="457"/>
+      <size width="51" height="19"/>
+      <contentSize width="51" height="19"/>
+    </children>
+    <children xsi:type="widgets:Label" text="Email: " name="email_fetch">
+      <font fontFamily="ArialMT" size="17">
+        <color Red="255" Green="255" Blue="255"/>
+      </font>
+      <layoutData xsi:type="layout:AutoLayoutData"/>
+      <location x="36" y="511"/>
+      <size width="48" height="19"/>
+      <contentSize width="48" height="19"/>
+    </children>
+    <layout xsi:type="layout:AutoLayout"/>
+    <maxArea width="430" height="932"/>
+    <size width="430" height="932"/>
+  </widgets:Page>
+  <navigation:Navigation page="/0"/>
+</xmi:XMI>
